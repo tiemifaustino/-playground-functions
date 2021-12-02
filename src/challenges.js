@@ -14,9 +14,11 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(string) {
+  let words = string.split(' ');
+  return words;
 }
+/** Source: link https://pt.stackoverflow.com/questions/268950/como-armazenar-palavras-de-um-texto-em-um-array/268964#268964*/
 
 // Desafio 4
 function concatName() {
