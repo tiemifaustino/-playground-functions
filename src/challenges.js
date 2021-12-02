@@ -18,7 +18,7 @@ function splitSentence(string) {
   let words = string.split(' ');
   return words;
 }
-/** Source: link https://pt.stackoverflow.com/questions/268950/como-armazenar-palavras-de-um-texto-em-um-array/268964#268964*/
+/** Source: link https://pt.stackoverflow.com/questions/268950/como-armazenar-palavras-de-um-texto-em-um-array/268964#268964 */
 
 // Desafio 4
 function concatName(arrayStrings) {
@@ -33,12 +33,24 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(arrayNumbers) {
+  let higher = arrayNumbers[0];
+  for (let i = 0; i < arrayNumbers.length; i += 1) {
+    if (arrayNumbers[i] >= higher) {
+      higher = arrayNumbers[i];
+    }
+  }
+  let count = 0;
+  for (let index = 0; index < arrayNumbers.length; index += 1) {
+    if (higher === arrayNumbers[index]) {
+      count += 1;
+    }
+  }
+  return count;
 }
 
 // Desafio 7
-function catAndMouse() {
+function catAndMouse(mouse, cat1, cat2) {
   // seu código aqui
 }
 
