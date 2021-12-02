@@ -21,8 +21,9 @@ function splitSentence(string) {
 /** Source: link https://pt.stackoverflow.com/questions/268950/como-armazenar-palavras-de-um-texto-em-um-array/268964#268964*/
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(arrayStrings) {
+  let stringFirstLast = arrayStrings[arrayStrings.length - 1] + ', ' + arrayStrings[0];
+  return stringFirstLast;
 }
 
 // Desafio 5
