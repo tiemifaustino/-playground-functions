@@ -51,8 +51,17 @@ function highestCount(arrayNumbers) {
 
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
-  // seu código aqui
+  let hunter = '';
+  if (Math.abs(mouse - cat1) < Math.abs(mouse - cat2)) {
+    hunter = 'cat1';
+  } else if (Math.abs(mouse - cat1) > Math.abs(mouse - cat2)) {
+    hunter = 'cat2';
+  } else {
+    hunter = 'os gatos trombam e o rato foge';
+  }
+  return hunter;
 }
+/** ref: link https://www.w3schools.com/js/js_math.asp */
 
 // Desafio 8
 function fizzBuzz() {
