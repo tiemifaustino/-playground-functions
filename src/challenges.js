@@ -64,8 +64,20 @@ function catAndMouse(mouse, cat1, cat2) {
 /** ref: link https://www.w3schools.com/js/js_math.asp */
 
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
+function fizzBuzz(arrayNumbers) {
+  let divisibleArray = [];
+  for (let i = 0; i < arrayNumbers.length; i += 1) {
+    if ((arrayNumbers[i] % 3 === 0) && (arrayNumbers[i] % 5 === 0)) {
+      divisibleArray.push('fizzBuzz');
+    } else if ((arrayNumbers[i] % 3 !== 0) && (arrayNumbers[i] % 5 !== 0) ) {
+      divisibleArray.push('bug!');
+    } else if (arrayNumbers[i] % 3 === 0) {
+      divisibleArray.push('fizz');
+    } else if (arrayNumbers[i] % 5 === 0) {
+      divisibleArray.push('buzz');
+    } 
+  }
+  return divisibleArray;
 }
 
 // Desafio 9
