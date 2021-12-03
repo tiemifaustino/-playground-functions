@@ -61,7 +61,7 @@ function catAndMouse(mouse, cat1, cat2) {
   }
   return hunter;
 }
-/** ref: link https://www.w3schools.com/js/js_math.asp */
+/** ref: https://www.w3schools.com/js/js_math.asp */
 
 // Desafio 8
 function fizzBuzz(arrayNumbers) {
