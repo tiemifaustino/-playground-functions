@@ -28,7 +28,7 @@ function concatName(arrayStrings) {
 
 // Desafio 5
 function footballPoints(wins, ties) {
-  let score = wins * 3 + ties;  
+  let score = wins * 3 + ties;
   return score;
 }
 
@@ -69,13 +69,13 @@ function fizzBuzz(arrayNumbers) {
   for (let i = 0; i < arrayNumbers.length; i += 1) {
     if ((arrayNumbers[i] % 3 === 0) && (arrayNumbers[i] % 5 === 0)) {
       divisibleArray.push('fizzBuzz');
-    } else if ((arrayNumbers[i] % 3 !== 0) && (arrayNumbers[i] % 5 !== 0) ) {
+    } else if ((arrayNumbers[i] % 3 !== 0) && (arrayNumbers[i] % 5 !== 0)) {
       divisibleArray.push('bug!');
     } else if (arrayNumbers[i] % 3 === 0) {
       divisibleArray.push('fizz');
     } else if (arrayNumbers[i] % 5 === 0) {
       divisibleArray.push('buzz');
-    } 
+    }
   }
   return divisibleArray;
 }
