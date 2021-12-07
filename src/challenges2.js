@@ -99,11 +99,32 @@ function triangleCheck(lineA, lineB, lineC) {
     return false;
   }
 }
+/** ref: https://www.w3schools.com/js/js_math.asp */
 
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function hydrate(stringReceived) {
+  let matches = stringReceived.match(/\d/g);
+  
+  let sum = 0;
+  for(let i = 0; i < matches.length; i += 1) {
+    sum = sum + parseInt(matches[i]);
+  }
+
+  let cups = '';
+  if(sum > 1) {
+    cups = sum + ' copos de água';
+  } else {
+    cups = sum + ' copo de água';
+  }
+  return cups;
 }
+/** ref: 
+ * https://www.w3schools.com/jsref/jsref_match.asp
+ * https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp#character-classes
+ * https://www.horadecodar.com.br/2020/10/14/como-obter-apenas-os-numeros-de-uma-string-em-javascript/
+ * https://www.encodedna.com/javascript/how-to-get-numbers-from-a-string-in-javascript.htm
+ * https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_parseint
+ * https://www.w3schools.com/js/js_number_methods.asp */
 
 module.exports = {
   generatePhoneNumber,
