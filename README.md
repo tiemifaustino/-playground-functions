@@ -30,7 +30,7 @@ Esse projeto teve como objetivo aplicar os conhecimentos adquiridos durante o bl
 
 ## 🗄️ Fornecido pela [Trybe](https://www.betrybe.com/)
 
- - Os requisitos a seguir foram criados pela Trybe para a realização do projeto:
+ - Os requisitos a seguir foram criados pela [Trybe](https://www.betrybe.com/) para a realização do projeto:
 
 
 <details>
