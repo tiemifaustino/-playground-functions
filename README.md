@@ -1,48 +1,21 @@
-### Termos e acordos
+# Projeto Playground Functions 🛝
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
-# Boas vindas ao repositório do Projeto Playground Functions!
+Projeto realizado no módulo de Fundamentos durante o curso de Desenvolvimento Web pela [Trybe](https://www.betrybe.com/), a escola que te ensina a programar, a aprender e a trabalhar.
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ para colocar seus códigos.
+## Descrição
 
-# Sumário
+Esse projeto teve como objetivo aplicar os conhecimentos adquiridos durante o bloco de Introdução à JavaScript e Lógica de Programação, ao desenvolver funções a partir de requisitos especificados para o correto comportamento de cada uma delas.
 
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Data de Entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
-  - [Avaliador Automático](#avaliador-automático)
-- [Requisitos do projeto](#requisitos-do-projeto)
 
-    `Requisitos obrigatórios:`
-    - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
-    - [2 - Crie uma função que calcule a área de um triângulo](#2---crie-uma-função-que-calcule-a-área-de-um-triângulo)
-    - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
-    - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
-    - [5 - Crie uma função que calcule a quantidade de pontos no futebol](#5---crie-uma-função-que-calcule-a-quantidade-de-pontos-no-futebol)
-    - [6 - Crie uma função que calcule a repetição do maior número](#6---crie-uma-função-que-calcule-a-repetição-do-maior-número)
-    - [7 - Crie uma função de Caça ao rato](#7---crie-uma-função-de-caça-ao-rato)
-    - [8 - Crie uma função FizzBuzz](#8---crie-uma-função-fizzbuzz)
-    - [9 - Crie uma função que Codifique e Decodifique](#9---crie-uma-função-que-codifique-e-decodifique)
-    - [10 - Crie uma função de Lista de tecnologias](#10---crie-uma-função-de-lista-de-tecnologias)
+## 👩‍💻 Tecnologias Utilizadas
 
-    `Requisitos bônus:`
-    - [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
-    - [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
-    - [13 - Crie uma função de Boas Vindas ao Bar da Trybe!](#13---crie-uma-função-de-boas-vindas-ao-bar-da-trybe!)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-# Habilidades
+
+## 🛠️ Habilidades Utilizadas
 
 - Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
 - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
@@ -55,162 +28,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
 
-# Entregáveis
+## 🗄️ Fornecido pela [Trybe](https://www.betrybe.com/)
 
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
-
-Este Pull Request deverá conter os arquivos `challenges.js` e `challenges2.js` com suas funções implementadas.
-
-Todas as funções já estão declaradas nos arquivos `challenges.js` e `challenges2.js`. Você pode criar outras funções para auxiliarem as já existentes. Contudo **Não altere o nome das funções que já existem**.
-
-**Os parâmetros das funções já existentes podem e devem ser alterados.**
-
-## ⚠️ É importante que seus arquivos não tenham o nome alterado! ⚠️
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
-## O que deverá ser desenvolvido
-
-- Você vai implementar funções a partir de requisitos;
-- Você vai desenvolver funções seguindo os requisitos especificados para o correto comportamento de cada uma delas.
-
-## Data de Entrega
-
-  - Será `1` dia de projeto.
-  - Data de entrega para avaliação final do projeto: `09/12/2021 - 14:00h`.
-
-# Instruções para entregar seu projeto
-
-## Antes de começar a desenvolver
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-019-a-project-playground-functions.git`
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-019-a-project-playground-functions`
-
-2. Instale as dependências e inicialize o projeto
-  * Instale as dependências:
-    * npm install
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-sobrenome-playground-functions`
-    * Exemplo: `git checkout -b joao-silva-playground-functions`
-
-4. Realize alguma mudança e adicione ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listados os arquivos em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joao-silva-playground-functions`
-
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-019-a-project-playground-functions/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Adicione uma descrição para o _Pull Request_, um título que o identifique, e clique no botão verde _"Create pull request"_. Crie da seguinte forma: `[JOAO-SILVA] Projeto Playground Functions`  
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-019-a-project-playground-functions/pulls) e confira que o seu _Pull Request_ está criado. 😀
-
----
-
-## Durante o desenvolvimento
-
-* Faça `commits` das alterações que você fizer no código regularmente.
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto.
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-
----
-
-## Como desenvolver
-
-### Linter
-
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
-
-```bash
-npm run lint
-```
-
-⚠ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR! MAS SÓ APÓS TER ENTREGUE 100% DOS REQUISITOS 😉** ⚠
-
-### Avaliador automático
-
-* Os requisitos do seu projeto são avaliados automaticamente
-
-Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
-
-* Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
-
-* Na página que se abrirá, procure pela linha _**"Evaluator step"**_ e clique nela;
-
-* Caso tenha dúvidas, procure as pessoas instrutoras.
-
-Para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
+ - Os requisitos a seguir foram criados pela Trybe para a realização do projeto:
 
 
-Para executar todos os testes utilize:
-```bash
-npm test
-```
-
-
-***ou***
-
-
-Para executar um arquivo de teste específico, utilize `npm test nomeDoArquivoDeTeste`:
-```bash
-npm test compareTrue
-```
-
----
-
-## Requisitos do projeto
-
-## ⚠️ Leia-os atentamente e siga à risca o que for pedido. Não altere o nome de nenhuma função. ⚠️
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
----
-
-### 👀 Observações importantes:
-
-* Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_.
-* Utilize `console.log()` para testar as funções localmente, mas pode remover antes de fazer o push 😉.
-* Lembrem-se que como pessoas desenvolvedoras devemos fazer pesquisas e garimpar resultados para auxiliar no entendimento do assunto. Assim, para solucionar os requisitos do projeto é inevitável e estimulado que pesquisas sejam feitas nas mais variadas fontes (course, vídeos do course, google, youtube, etc) sempre tomando cuidado para utilizar fontes "confiáveis" nas pesquisas da Internet, como por exemplo:
-  
-  * [Javascript.com](http://javascript.com/)
-  
-  * [W3Schools](https://www.w3schools.com/js/default.asp)
-  
-  * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-  
-  * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
-
----
-
-### 1 - Crie uma função usando o operador &&
+<details>
+<summary><strong>1 - Crie uma função usando o operador &&</strong></summary>
 
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
 
@@ -229,7 +53,11 @@ Faça a função somente utilizando o operador `&&`.
 
 - Retorne true quando se chamar a função compareTrue com dois parâmetros de valor true
 
-### 2 - Crie uma função que calcule a área de um triângulo
+</details>
+
+
+<details>
+<summary><strong>2 - Crie uma função que calcule a área de um triângulo</strong></summary>
 
 Escreva uma função com o nome `calcArea` que receba um valor de base (chamado `base`) e outro de altura (chamado `height`) de um triângulo e retorne o cálculo da sua área.
 
@@ -243,7 +71,11 @@ Lembre-se que a área de um triângulo é calculada através da seguinte fórmul
 
 - Retorne o valor 25.5 quando a funcão calcArea é chamada com o parâmetro base com o valor 51 e o parâmetro height com o valor 1 espera-se como resultado 25.5
 
-### 3 - Crie uma função que divida a frase
+</details>
+
+
+<details>
+<summary><strong>3 - Crie uma função que divida a frase</strong></summary>
 
 Escreva uma função com o nome `splitSentence`, a qual receberá uma string e retornará uma array de strings separadas por cada espaço na string original.
 
@@ -257,7 +89,12 @@ Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['g
 
 - Retorne o valor ['foguete'] se a função receber a string 'foguete'
 
-### 4 - Crie uma função que use concatenação de strings
+</details>
+
+
+<details>
+<summary><strong>4 - Crie uma função que use concatenação de strings</strong></summary>
+
 
 Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM'`, independente do tamanho da array.
 
@@ -271,7 +108,11 @@ Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['
 
 - Retorne 'captain, captain' quando o parâmetro passado na funcão concatName seja ['captain', 'my', 'captain']
 
-### 5 - Crie uma função que calcule a quantidade de pontos no futebol
+</details>
+
+
+<details>
+<summary><strong>5 - Crie uma função que calcule a quantidade de pontos no futebol</strong></summary>
 
 Escreva uma função com o nome `footballPoints` que receba o número de vitórias (esse parâmetro deverá se chamar `wins`) e o número de empates (esse parâmetro deverá se chamar `ties`) e retorne a quantidade de pontos que o time marcou em um campeonato.
 
@@ -285,7 +126,11 @@ Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto
 
 - Retorne 0 pontos quando o time tenha 0 vitórias e 0 empates
 
-### 6 - Crie uma função que calcule a repetição do maior número
+</details>
+
+
+<details>
+<summary><strong>6 - Crie uma função que calcule a repetição do maior número</strong></summary>
 
 Escreva uma função chamada `highestCount` que, ao receber uma array de números, retorne a quantidade de vezes que o maior deles se repete.
 
@@ -299,7 +144,11 @@ Exemplo: caso o parâmetro de `highestCount` seja uma array com valores `[9, 1, 
 
 - Retorne 3 quando o parâmetro passado na função highestCount seja [0, 0, 0]
 
-### 7 - Crie uma função de Caça ao Rato
+</details>
+
+
+<details>
+<summary><strong>7 - Crie uma função de Caça ao Rato</strong></summary>
 
 Imagine que existem dois gatos, os quais chamaremos de `cat1` e `cat2`, e que ambos estão caçando um mesmo rato chamado `mouse`. Imagine que os animais estão em uma reta, cada um em uma posição representada por um número.
 
@@ -317,7 +166,11 @@ Caso os gatos estejam na mesma distância do rato, a função deverá retornar a
 
 - Retorne a string 'os gatos trombam e o rato foge' caso a função catAndMouse receba os parâmetros onde os gatos estejam na mesma distância do rato
 
-### 8 - Crie uma função FizzBuzz
+</details>
+
+
+<details>
+<summary><strong>8 - Crie uma função FizzBuzz</strong></summary>
 
 Crie uma função chamada `fizzBuzz` que receba uma array de números e retorne uma array da seguinte forma:
 
@@ -336,8 +189,11 @@ Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar
 
 - Retorne as strings ['fizz', 'buzz'] quando é passado os parâmetros [9, 25] para a função fizzBuzz
 
+</details>
 
-### 9 - Crie uma função que Codifique e Decodifique
+
+<details>
+<summary><strong>9 - Crie uma função que Codifique e Decodifique</strong></summary>
 
 Crie duas funções: a primeira deverá se chamar `encode` e, ao receber uma string como parâmetro, deverá trocar todas as vogais minúsculas por números, de acordo com o formato a seguir:
 
@@ -357,7 +213,11 @@ A segunda função deverá se chamar `decode` e faz o contrário de `encode` - o
 
 - Retorne uma string decodificada quando a função decode for utilizada
 
-### 10 - Crie uma função de Lista de Tecnologias
+</details>
+
+
+<details>
+<summary><strong>10 - Crie uma função de Lista de Tecnologias</strong></summary>
 
 Crie uma função que recebe um array de nomes de tecnologias que você quer aprender. Essa função deve receber também um segundo parâmetro chamado `name` com um nome.
 
@@ -415,9 +275,14 @@ Caso o array venha vazio sua função deve retornar 'Vazio!'
 
 - Retorne a mensagem de erro 'Vazio!' quando a lista não tiver tecnologias
 
+</details>
+
+
 **Bônus**
 
-### 11 - Crie uma função de Número de Telefone
+
+<details>
+<summary><strong>11 - Crie uma função de Número de Telefone</strong></summary>
 
 Crie uma função chamada `generatePhoneNumber` que receba uma array com 11 números e retorne um número de telefone, respeitando parênteses, traços e espaços.
 
@@ -439,7 +304,11 @@ Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `
 
 - Retorne um número de telefone, respeitando parênteses, traços e espaços caso os números do array estejam de acordo com as especificações
 
-### 12 - Crie uma função de Condição de existência de um triângulo
+</details>
+
+
+<details>
+<summary><strong>12 - Crie uma função de Condição de existência de um triângulo</strong></summary>
 
 Um triângulo é composto de três linhas: `lineA`, `lineB` e `lineC`. Crie uma função chamada `triangleCheck` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha.
 
@@ -461,7 +330,11 @@ Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.
 
 - Retorne true quando a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
 
-### 13 - Crie uma função de boas vindas ao Bar da Trybe!
+</details>
+
+
+<details>
+<summary><strong>13 - Crie uma função de boas vindas ao Bar da Trybe!</strong></summary>
 
 Segundo as regras desse bar, a cada bebida deve-se beber um copo de água para que não se tenha ressaca.
 
@@ -499,25 +372,4 @@ String retornada:
 
 - Retorne a sugestão de quantos copos de água deve-se beber ao receber uma string
 
----
-
-## (Opcional) - Depois de terminar o desenvolvimento
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque outras pessoas estudantes da sua turma
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-019-a`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-# Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido 😉.
+</details>
